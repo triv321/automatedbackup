@@ -2,8 +2,6 @@
 
 > A simple, robust Bash script for creating timestamped, compressed backups of any directory.
 
-This project is the first deliverable of the "AI Infrastructure Engineer Roadmap," designed to practice foundational shell scripting and build a genuinely useful command-line utility.
-
 ## Overview
 
 In any production or development environment, the ability to create reliable, automated backups is a critical, non-negotiable task. Manually copying folders is slow, error-prone, and doesn't scale. This script solves that problem by providing a simple, reusable tool to create a compressed `.tar.gz` archive of any specified directory.

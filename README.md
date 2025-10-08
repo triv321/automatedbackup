@@ -54,3 +54,6 @@ The script uses a combination of standard shell utilities to perform the backup:
 2.  It uses the `date` command to generate a `YYYY-MM-DD_HH-MM-SS` timestamp.
 3.  To ensure clean archives, it uses `dirname` and `basename` to separate the parent path from the target folder name.
 4.  The `tar` command is then invoked with the `-C` flag. This flag is critical as it instructs `tar` to change to the parent directory *before* creating the archive, which prevents the full absolute path from being stored in the backup.
+
+## License
+MIT
